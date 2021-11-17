@@ -5,6 +5,7 @@ using DG.Tweening;
 public class Taptown2 : MonoBehaviour
 {
     float tapCount = 0;
+    private int counter = 0;
     public GameObject phone1;
     public GameObject book;
     public GameObject sandclock;
@@ -21,7 +22,7 @@ public class Taptown2 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        counter = 0;
     }
 
     public void NextScene(){
@@ -70,8 +71,9 @@ public class Taptown2 : MonoBehaviour
           Monitor.transform.DOScale(Vector3.one,1f);//oneアイテムの大きさ、1f出現の速さ
        }
 
-       if(tapCount > 8){
-         FindObjectOfType<MySceneManager>().toPark();
+       if(tapCount > 8 && counter == 0){
+        FindObjectOfType<MySceneManager>().toPark();
+            counter++;   
        }
 
     }
