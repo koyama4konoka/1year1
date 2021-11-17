@@ -72,8 +72,8 @@ public class Taptown2 : MonoBehaviour
        }
 
        if(tapCount > 8 && counter == 0){
-        FindObjectOfType<MySceneManager>().toPark();
-            counter++;   
+         FindObjectOfType<MySceneManager>().toPark();
+         counter++;
        }
 
     }
