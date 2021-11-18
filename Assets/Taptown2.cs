@@ -5,7 +5,7 @@ using DG.Tweening;
 public class Taptown2 : MonoBehaviour
 {
     float tapCount = 0;
-    private int counter =0;
+    private int counter = 0;
     public GameObject phone1;
     public GameObject book;
     public GameObject sandclock;

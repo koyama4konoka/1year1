@@ -1280,6 +1280,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 2119128462}
     m_Modifications:
     - target: {fileID: 1457697400229262, guid: c5f416ea052f82b48a754317083cbd46, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1457697400229262, guid: c5f416ea052f82b48a754317083cbd46, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967294
       objectReference: {fileID: 0}
@@ -1806,6 +1810,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 2119128462}
     m_Modifications:
     - target: {fileID: 1011079914355944, guid: fa148b78de14b90418510c4dfc3f769e, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1011079914355944, guid: fa148b78de14b90418510c4dfc3f769e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967294
       objectReference: {fileID: 0}
@@ -1984,6 +1992,7 @@ GameObject:
   - component: {fileID: 741325773}
   - component: {fileID: 741325775}
   - component: {fileID: 741325774}
+  - component: {fileID: 741325776}
   m_Layer: 0
   m_Name: Camera
   m_TagString: MainCamera
@@ -2056,6 +2065,23 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &741325776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741325772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cdd9703c2671c9478412ae27388067f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subject_: {fileID: 1949601066}
+  coverLayerNameList_:
+  - Wall
+  rendererHitsList_: []
+  rendererHitsPrevs_: []
 --- !u!1 &759963226 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1758164710383608, guid: 6f47cc72d5e92e84a981016c9a091971,
@@ -4259,6 +4285,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 2119128462}
     m_Modifications:
     - target: {fileID: 1745090881582596, guid: 479efd84472a21146b6e2cf8ac362360, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1745090881582596, guid: 479efd84472a21146b6e2cf8ac362360, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967294
       objectReference: {fileID: 0}
@@ -4399,6 +4429,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2119128462}
     m_Modifications:
+    - target: {fileID: 1577158247886556, guid: a0ee80422395d6e48878a4adbbdf12d7, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1577158247886556, guid: a0ee80422395d6e48878a4adbbdf12d7, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967294
